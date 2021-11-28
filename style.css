@@ -41,13 +41,13 @@ body {
   object-fit: cover;
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
-/*Reposiv*/
+/*Reposive*/
 main {
   color: var(--gray);
   background: url(Images/background.svg) no-repeat center/cover;
   width: 100vw;
   min-height: 812px;
-  height: 100vw;
+  height: 100vh;
 }
 
 h1 {
