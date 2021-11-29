@@ -25,7 +25,8 @@ body {
 
 .avatar {
   width: 10rem;
-  margin: 11.5rem auto 0;
+  margin: 0 auto 0;
+  margin-top: 35%;
   position: relative;
 }
 
@@ -47,10 +48,21 @@ main {
   color: var(--gray);
   background: url(Images/background.svg) no-repeat center/cover;
   width: 100%;
-  min-height: 812px;
+  min-height: 600px;
+  max-height: 812px;
   height: 100%;
 }
-
+@media screen and (max-height: 600px) {
+  main {
+    width: 100%;
+    min-height: 564px;
+    max-height: 600px;
+    height: 100%;
+  }
+  .avatar {
+    margin-top: 20%;
+  }
+}
 h1 {
   font-size: 1.5rem;
   margin-top: 1.5rem;
@@ -76,6 +88,4 @@ ul {
   display: flex;
   gap: 0.5rem;
   justify-content: center;
-}
-ify-content: center;
 }
