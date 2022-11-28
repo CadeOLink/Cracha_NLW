@@ -1,8 +1,8 @@
 const links_social_media = {
   github: 'CadeOLink',
   youtube: 'watch?v=7YvAYIJSSZY&ab_channel=RockwellVEVO',
-  facebook: 'rxzlcnrvbg__',
-  instagram: 'rxzlcnrvbg__',
+  facebook: 'yosoyeverton',
+  instagram: 'yosoyeverton',
   twitter: '@Coe_Everton'
 }
 function change_social_media_links() {
